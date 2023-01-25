@@ -1,0 +1,24 @@
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, img, div, blockquote, a, button {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+* (@value: none) {
+    -webkit-appearance: @value;
+    -moz-appearance:    @value;
+    -ms-appearance:     @value;
+    -o-appearance:      @value;
+    appearance:         @value;
+}
+
+a, a:hover, a:active, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+
